@@ -1,11 +1,9 @@
 import asyncio
 import io
-import datetime
 import pandas as pd
 from uuid import uuid4
 from os import environ as env
 import psycopg
-from psycopg_pool import AsyncConnectionPool
 from dotenv import load_dotenv
 
 
